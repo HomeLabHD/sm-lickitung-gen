@@ -311,6 +311,14 @@ lint:
       enabled: true
     filesize:
       enabled: true
+    unicode:
+      enabled: true
+      exclude:
+        - "*.woff2"
+    lineendings:
+      enabled: true
+      exclude:
+        - "*.woff2"
 
 security:
   enabled: true
