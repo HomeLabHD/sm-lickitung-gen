@@ -6,9 +6,9 @@ Copy or reference the [docker-compose.yaml](docker-compose.yaml) in this directo
 
 ```yaml
 services:
-  supermicro-license-generator-oci:
+  sm-lickitung-gen:
     image: docker.io/hlhd/sm-lickitung-gen:v0.0.4
-    container_name: supermicro-license-generator-oci
+    container_name: sm-lickitung-gen
     ports:
       - "8015:8080"   # host:container
     restart: unless-stopped
@@ -25,7 +25,7 @@ docker compose up -d
 
 ## Quick start (docker run)
 ```bash
-docker run -d --name supermicro-license-generator-oci \
+docker run -d --name sm-lickitung-gen \
   -p 8015:8080 \
   --restart unless-stopped \
   docker.io/hlhd/sm-lickitung-gen:v0.0.4
@@ -52,7 +52,7 @@ The container runs as non-root (`nginx` user, UID 100) by default.
 
 ## Health & logs
 ```bash
-docker logs -f supermicro-license-generator-oci
+docker logs -f sm-lickitung-gen
 docker ps
 ```
 
