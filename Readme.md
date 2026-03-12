@@ -1,14 +1,23 @@
-# SM-Lickitung (OCI)
+# SM-Lickitung-Gen
 
 Minimal container that serves a static HTML+JS tool at `/`.
 
 > ⚠️ Use at your own risk. Intended only for non-commercial, educational/research purposes on out-of-production Supermicro gear. You are responsible for compliance with all applicable licenses and laws.
 
+<!-- sf:project:start -->
+<!-- sf:project:end -->
+<!-- sf:badges:start -->
+<!-- sf:badges:end -->
+<!-- sf:image:start -->
+<!-- sf:image:end -->
+
+---
+
 ## Quick start (Docker Compose)
 ```yaml
 services:
   supermicro-license-generator-oci:
-    image: prplanit/sm-lickitung-oci:v0.0.4
+    image: hlhd/sm-lickitung-gen:v0.0.4
     container_name: supermicro-license-generator-oci
     ports:
       - "8015:8080"   # host:container
@@ -29,7 +38,7 @@ docker compose up -d
 docker run -d --name supermicro-license-generator-oci \
   -p 8015:8080 \
   --restart unless-stopped \
-  prplanit/sm-lickitung-oci:v0.0.4
+  hlhd/sm-lickitung-gen:v0.0.4
 ```
 
 ### Upgrading from v0.0.2 / v0.0.3

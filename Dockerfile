@@ -1,4 +1,13 @@
 # syntax=docker/dockerfile:1.7
+
+LABEL maintainer="HomeLabHD <homelabhelp@gmail.com>" \
+    org.opencontainers.image.title="sm-lickitung-gen" \
+    org.opencontainers.image.description="Minimal container serving a static Supermicro license key generator tool." \
+    org.opencontainers.image.source="https://github.com/HomeLabHD/sm-lickitung-gen" \
+    org.opencontainers.image.url="https://hub.docker.com/r/hlhd/sm-lickitung-gen" \
+    org.opencontainers.image.documentation="https://github.com/HomeLabHD/sm-lickitung-gen#readme" \
+    org.opencontainers.image.vendor="HomeLabHD"
+
 FROM alpine:3.23
 
 # Install nginx
