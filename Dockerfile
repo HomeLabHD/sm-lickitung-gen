@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.7
 
-FROM alpine:3.23.3
+FROM alpine:3.23.5
 
 LABEL maintainer="HomeLabHD <homelabhelp@gmail.com>" \
     org.opencontainers.image.title="sm-lickitung-gen" \
