@@ -16,14 +16,11 @@ Minimal container that serves a static HTML+JS tool at `/`.
 [![latest](https://raw.githubusercontent.com/HomeLabHD/sm-lickitung-gen/main/.stagefreight/badges/latest.svg)](https://hub.docker.com/r/hlhd/sm-lickitung-gen/tags?name=latest) ![updated](https://raw.githubusercontent.com/HomeLabHD/sm-lickitung-gen/main/.stagefreight/badges/release-updated.svg) [![size](https://raw.githubusercontent.com/HomeLabHD/sm-lickitung-gen/main/.stagefreight/badges/release-size.svg)](https://hub.docker.com/r/hlhd/sm-lickitung-gen/tags?name=v0.0.5) [![latest-dev](https://raw.githubusercontent.com/HomeLabHD/sm-lickitung-gen/main/.stagefreight/badges/latest-dev.svg)](https://hub.docker.com/r/hlhd/sm-lickitung-gen/tags?name=latest-dev) ![updated](https://raw.githubusercontent.com/HomeLabHD/sm-lickitung-gen/main/.stagefreight/badges/dev-updated.svg) [![size](https://raw.githubusercontent.com/HomeLabHD/sm-lickitung-gen/main/.stagefreight/badges/dev-size.svg)](https://hub.docker.com/r/hlhd/sm-lickitung-gen/tags?name=latest-dev)
 <!-- sf:image:end -->
 
-### What's inside
+## Image contents
 
-|                          |                                                            |
-| ------------------------ | ---------------------------------------------------------- |
-| **Base**                 | Alpine + NGINX                                             |
-| **Static Site**          | Served by NGINX (no server-side code)                      |
-| **Doc Root**             | Default doc root baked into the image                      |
-| **Non-Root**             | Runs as `nginx` user (UID 100) by default                  |
+Base:
+<!-- sf:contents-base:start -->
+<!-- sf:contents-base:end -->
 
 ### Documentation
 
