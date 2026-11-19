@@ -45,7 +45,6 @@ metadata:
   description:
     - Static single-page utility served from a minimal nginx container.
     - Minimal nginx container serving a self-contained HTML+JS utility for out-of-production server baseboard-management hardware. Non-commercial, educational and research use only.
-  license: MIT
   org: HomeLabHD
   title: SM Lickitung Gen
   topics:
